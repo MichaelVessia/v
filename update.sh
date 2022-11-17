@@ -7,4 +7,5 @@ cd ..
 cd h && git fetch && git merge
 cd ..
 git add .
+git status
 git commit -m "Pull latest from submodules"
