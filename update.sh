@@ -2,9 +2,9 @@
 
 # Update contents of submodules
 
-cd f && git fetch && git merge
+cd f  && git checkout master && git fetch && git merge
 cd ..
-cd h && git fetch && git merge
+cd h && git checkout master && git fetch && git merge
 cd ..
 git add .
 git status
